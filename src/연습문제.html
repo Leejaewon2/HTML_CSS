@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            margin: 0;
+        }        
+        .main-box {
+            background-color: royalblue;
+            position: relative;
+            width: 300px;
+            height: 200px;            
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            border: 4px dashed red;
+            background-color: orange;
+        }
+        .frt-box {
+           position: relative;
+           z-index: 1;
+        }
+        .scd-box {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        .trd-box {
+            position: relative;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box main-box"></div>
+    <div class="box frt-box"></div>
+    <div class="box scd-box"></div>
+    <div class="box trd-box"></div>
+    
+</body>
+</html>

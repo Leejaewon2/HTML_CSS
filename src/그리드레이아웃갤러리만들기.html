@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-container {
+            background-color: rgb(221, 212, 212);
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 450px);
+            gap: 10px;
+            grid-template-areas: 
+                "cup1 cup2 cup3"
+                "cup4 cup5 cup6"
+                "cup7 cup8 none"
+            ;
+        }
+        img {
+            width: 250px;
+            height: 200px;
+            margin: 30px;
+        }
+        .item {
+            justify-content: center;
+            align-items: center;
+        }
+        .image-cup1 {
+            grid-area: cup1;
+            background-color: white;
+            border: 1px solid gray;
+        }
+        .image-cup2 {
+            grid-area: cup2;
+            background-color: white;
+            border: 1px solid gray;
+        }
+        .image-cup3 {
+            grid-area: cup3;
+            background-color: white;
+            border: 1px solid gray;
+        }
+        .image-cup4 {
+            grid-area: cup4;
+            background-color: white;
+            border: 1px solid gray;
+        }
+        .image-cup5 {
+            grid-area: cup5;
+            background-color: white;
+            border: 1px solid gray;
+        }
+        .image-cup6 {
+            grid-area: cup6;
+            background-color: white;
+            border: 1px solid gray;
+        }
+        .image-cup7 {
+            grid-area: cup7;
+            background-color: white;
+            border: 1px solid gray;
+        }
+        .image-cup8 {
+            grid-area: cup8;
+            background-color: white;
+            border: 1px solid gray;
+        }
+        .image-none {
+            grid-area: none1;
+        }
+        h1 {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <div class="item image-cup1">
+            <h1>사진 제목</h1>
+            <img src="../images/cup/cup-1.jpg" alt="">
+            <p>사진설명 : Lorem ipsum dolor sit amet, consecteur  
+            adipiscing elit. Ullam, numquam. Neque mollitia esse
+            blanditiis facere.</p>
+        </div>
+        <div class="item image-cup2">
+            <h1>사진 제목</h1>
+            <img src="../images/cup/cup-2.jpg" alt="">
+            <p>사진설명 : Lorem ipsum dolor sit amet, consecteur  
+            adipiscing elit. Ullam, numquam. Neque mollitia esse
+            blanditiis facere.</p>
+        </div>
+        <div class="item image-cup3">
+            <h1>사진 제목</h1>
+            <img src="../images/cup/cup-3.jpg" alt="">
+            <p>사진설명 : Lorem ipsum dolor sit amet, consecteur  
+            adipiscing elit. Ullam, numquam. Neque mollitia esse
+            blanditiis facere.</p>
+        </div>
+        <div class="item image-cup4">
+            <h1>사진 제목</h1>
+            <img src="../images/cup/cup-4.jpg" alt="">
+            <p>사진설명 : Lorem ipsum dolor sit amet, consecteur 
+            adipiscing elit. Ullam, numquam. Neque mollitia esse
+            blanditiis facere. </p>
+        </div>
+        <div class="item image-cup5">
+            <h1>사진 제목</h1>
+            <img src="../images/cup/cup-5.jpg" alt="">
+            <p>사진설명 : Lorem ipsum dolor sit amet, consecteur  
+            adipiscing elit. Ullam, numquam. Neque mollitia esse
+            blanditiis facere.</p>
+        </div>
+        <div class="item image-cup6">
+            <h1>사진 제목</h1>
+            <img src="../images/cup/cup-6.jpg" alt="">
+            <p>사진설명 : Lorem ipsum dolor sit amet, consecteur  
+            adipiscing elit. Ullam, numquam. Neque mollitia esse
+            blanditiis facere.</p>
+        </div>
+        <div class="item image-cup7">
+            <h1>사진 제목</h1>
+            <img src="../images/cup/cup-7.jpg" alt="">
+            <p>사진설명 : Lorem ipsum dolor sit amet, consecteur  
+            adipiscing elit. Ullam, numquam. Neque mollitia esse
+            blanditiis facere.</p>
+        </div>
+        <div class="item image-cup8">
+            <h1>사진 제목</h1>
+            <img src="../images/cup/cup-8.jpg" alt="">
+            <p>사진설명 : Lorem ipsum dolor sit amet, consecteur  
+            adipiscing elit. Ullam, numquam. Neque mollitia esse
+            blanditiis facere.</p>
+        <div class="image-none1">
+        </div>
+    </div>
+</body>
+</html>
